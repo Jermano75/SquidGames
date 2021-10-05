@@ -23,7 +23,6 @@ this project is under license to use and modify but not for sell.
 ![Alt text](https://i.ibb.co/rFqZjfV/Capturar.png "a")
 ![Alt text](https://i.ibb.co/59v9H8J/2.png "a")
 ![Alt text](https://i.ibb.co/jfzRYqR/3.png "a")
-![Alt text](https://i.ibb.co/jfzRYqR/3.png "a")
 ![Alt text](https://i.ibb.co/jf7X7Kh/4.png "a")
 
 
