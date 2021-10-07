@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(30deg, rgba(14, 14, 14, 0.836), rgba(14, 14, 14, 0.836)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fsquid-game-hd-netflix_bG5raWyUmZqaraWkpJRmbmdlrWZlbWU.jpg&f=1&nofb=1");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+}
+
+.bg {
+    background-color: rgba(20, 20, 20, 0.678);
+}
+
+.align {
+    text-align: center;
+}
+
+div#main {
+    text-align: center;
+}
+
+.playbutton {
+    width: 180px;
+    height: 60px;
+    border-color: transparent;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.playbutton:hover {
+    transition-delay: 55ms;
+    -o-transition-duration: 55ms;
+    letter-spacing: 15px;
+    width: 210px;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin-top: 25px;
+}

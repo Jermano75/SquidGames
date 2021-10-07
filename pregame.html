@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquidGames - PlayerInfo</title>
+    <link rel="stylesheet" href="pregame.css">
+    <script src="pregame.js"></script>
+    <script src="counter.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container p-12 my-12 border">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="players">
+                        <img onclick="createchar('001')" class="img-fluid" src="img/players/001.png">
+                    </div>
+                    <div class="players">
+                        <img onclick="createchar('067')" class="img-fluid" src="img/players/067.png">
+                    </div>
+                    <div class="players">
+                        <img onclick="createchar('218')" class="img-fluid" src="img/players/218.png">
+                    </div>
+                    <div class="players">
+                        <img onclick="createchar('456')" class="img-fluid" src="img/players/456.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="NumberGenarator" class="container p-3 my-3 text-white">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="title">You Number as player</h1>
+                <div class="square">
+                    <span id="counterNumber" class="counter">000000</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container p-3 my-3 text-white">
+            <h1 class="title">Your Character:</h1>
+            <div class="square">
+                <img id="playerChoosed" class="PlayerChoosed">
+                <span id="playernumber">Number: <span id="number"></span></span>
+            </div>
+        </div>
+        <a href="#NumberGenarator" class="btn btn-success btnplayer">
+            Select you Player
+        </a>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

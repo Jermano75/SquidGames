@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(img/bk.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(56, 56, 56, 0.719);
+}
+
+.players {
+    float: left;
+    width: auto;
+    /* = width for a 1:1 aspect ratio */
+    margin: 2.90%;
+    background-color: #1E1E1E;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+.img-fluid:hover {
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.title {
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+
+.btnplayer {
+    margin-bottom: 10px;
+}
+
+.bg {
+    background-color: rgb(65, 65, 65);
+    position: relative;
+    z-index: 3000;
+}
+
+.square {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    line-height: 150px;
+    text-align: center;
+}
+
+.counter {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 45px;
+}
+
+.playerChoosed {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#playernumber {
+    float: left;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .players {
+        margin-left: 25px;
+    }
+    #playernumber {
+        display: inline-block;
+        margin-left: 0;
+        float: none;
+    }
+}
