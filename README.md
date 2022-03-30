@@ -12,7 +12,7 @@ Just using:
 
 - All pages are responsive to mobile
 - DDAKJI Game is complete on Game1 Folder
-- Second game the <canvas> is working just need some js to create the gane.
+- Second game the "canvas" is working just need some js to create the game.
 - Player Creation is working just need to be saved as the score
 
 > I worked this project was created on my free time, 
